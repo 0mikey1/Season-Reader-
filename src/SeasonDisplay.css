@@ -1,0 +1,54 @@
+.loading{
+background-color: teal;
+
+}
+.icon-left{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: transform .5s;
+}
+
+.icon-left:hover {
+  transform: scale(1.3);
+}
+.icon-right:hover {
+  transform: scale(1.3);
+}
+
+.icon-right{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transition: transform .5s;
+}
+
+.season-display.winter i{
+  color: blue;
+}
+
+.season-display.summer i{
+  color: red;
+}
+
+.season-display{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.winter{
+  background-color: aliceblue;
+}
+
+.summer{
+  background-color: orange;
+}
+
+.ui-segment{
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
